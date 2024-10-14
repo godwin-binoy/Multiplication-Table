@@ -1,7 +1,16 @@
 print("Multiplication table\n---------------------")
-while True :
-    table = int((input('Multiplication table of : ')))
-    loop = 0
-    for i in range(10) :
-        loop += 1
-        print(f'{loop} x {table} = {loop * table}')
+while True :	
+    user_input = input('\nTable of : ')
+    
+    try :
+    	user_input = int(user_input)
+    except :
+    	print('\nError : Make sure you entered numbers\n')
+    	continue
+    	
+    if user_input == 0 :
+    	print('\nMultiplication table of 0 cannot be calculated\n')
+    	continue
+    	
+    for i in range(1,10) :
+    	print(f'{i} × {user_input} = {i * user_input}')
