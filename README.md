@@ -2,7 +2,7 @@
 
 This project provides simple implementations of a multiplication table generator in both **Java** and **Python**. It helps users input a number and view its multiplication table from 1 to 10.
 
----
+
 
 ## Features
 
@@ -12,14 +12,14 @@ This project provides simple implementations of a multiplication table generator
   - Prompts the user if invalid input is detected.
 - **Iterative Display**: Continuously prompts users to input numbers until manually terminated.
 
----
+
 
 ## Technologies Used
 
 - **Java** (requires JDK 8 or higher)
 - **Python** (requires Python 3.6 or higher)
 
----
+
 
 ## How to Run
 
@@ -52,7 +52,7 @@ Ensure you have the following installed:
    ```
 5. Enter a number when prompted, and the multiplication table will be displayed.
 
----
+
 
 ## Example Output
 
@@ -71,17 +71,17 @@ Multiplication table
 10 × 5 = 50
 ```
 
----
+
 
 ## Contributing
 Contributions are welcome! If you have suggestions for improvements, feel free to fork the repository and submit a pull request.
 
----
+
 
 ## License
 This project is licensed under the MIT License. See the LICENSE file for details.
 
----
+
 
 ## Author
 
