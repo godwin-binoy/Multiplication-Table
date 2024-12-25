@@ -1,6 +1,6 @@
 # Multiplication Table
 
-This project provides simple implementations of a multiplication table generator in both **Java** and **Python**. It helps users input a number and view its multiplication table from 1 to 10.
+This project provides simple implementations of a multiplication table generator in **Java**, **Python**, and **C**. Users can input a number and view its multiplication table. The C program is newly added to the repository to enhance functionality and broaden the scope of implementations.
 
 
 
@@ -17,20 +17,25 @@ This project provides simple implementations of a multiplication table generator
 ## Technologies Used
 
 - **Java** (requires JDK 8 or higher)
-- **Python** (requires Python 3.6 or higher)
+- **Python** (requires Python 3 or higher)
+- **C** (requires GCC or compatible compiler)
 
 
 
 ## How to Run
 
 ### Prerequisites
+
 Ensure you have the following installed:
+
 - **Java**: [Download and Install JDK](https://www.oracle.com/java/technologies/javase-downloads.html)
 - **Python**: [Download Python](https://www.python.org/downloads/)
+- **C Compiler**: GCC or any compatible compiler ([Download GCC](https://gcc.gnu.org/))
 
 ### Steps to Execute
 
 #### Python Implementation
+
 1. Clone the repository or download the Python script.
 2. Open a terminal and navigate to the script's directory.
 3. Run the script with the command:
@@ -40,6 +45,7 @@ Ensure you have the following installed:
 4. Enter a number when prompted, and the multiplication table will be displayed.
 
 #### Java Implementation
+
 1. Clone the repository or download the Java file.
 2. Navigate to the file's directory via terminal or command prompt.
 3. Compile the Java file with:
@@ -52,16 +58,32 @@ Ensure you have the following installed:
    ```
 5. Enter a number when prompted, and the multiplication table will be displayed.
 
+#### C Implementation
+
+1. Clone the repository or download the C file.
+2. Open a terminal and navigate to the file's directory.
+3. Compile the program using GCC:
+   ```bash
+   gcc multiplication_table.c -o multiplication_table
+   ```
+4. Run the compiled executable:
+   ```bash
+   ./multiplication_table
+   ```
+5. Enter a number when prompted, and the multiplication table will be displayed.
+
 
 
 ## Example Output
 
 ### Input
+
 ```
 Table of: 5
 ```
 
 ### Output
+
 ```
 Multiplication table
 ---------------------
@@ -74,11 +96,13 @@ Multiplication table
 
 
 ## Contributing
+
 Contributions are welcome! If you have suggestions for improvements, feel free to fork the repository and submit a pull request.
 
 
 
 ## License
+
 This project is licensed under the MIT License. See the LICENSE file for details.
 
 
